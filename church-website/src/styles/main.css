@@ -197,6 +197,69 @@ footer {
     opacity: 0.8;
 }
 
+.footer-social h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.social-link.facebook {
+    background-color: #1877f2;
+    color: white;
+}
+
+.social-link.facebook:hover {
+    background-color: #166fe5;
+}
+
+.social-link.youtube {
+    background-color: #ff0000;
+    color: white;
+}
+
+.social-link.youtube:hover {
+    background-color: #cc0000;
+}
+
+.social-link.instagram {
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    color: white;
+}
+
+.social-link.instagram:hover {
+    background: linear-gradient(45deg, #e6833c 0%,#d5583c 25%,#cb1f43 50%,#bb1f66 75%,#ab1488 100%);
+}
+
+.social-link svg {
+    width: 20px;
+    height: 20px;
+}
+
 @media (max-width: 768px) {
     .footer-content {
         flex-direction: column;
