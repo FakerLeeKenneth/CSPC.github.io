@@ -7,10 +7,12 @@
 </head>
 <body>
     <header class="main-header">
-        <a href="index.html" class="logo-title">
-            <img src="assets/logo.svg" alt="Church Logo" class="logo">
+        <div class="logo-title">
+            <a href="index.html">
+                <img src="assets/logo.svg" alt="Church Logo" class="logo">
+            </a>
             <span class="church-name">基督教傳頌救恩會</span>
-        </a>
+        </div>
         <nav>
         <ul class="navbar">
             <li>
@@ -67,7 +69,47 @@
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 Church Website. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-section footer-map">
+                <h4>教會位置</h4>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.5!2d114.160874!3d22.328521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400b392d17acf%3A0xfeb3defda726c985!2z5Z-65aaK5pWZ5YKz6Kqc6aCC5pWR5oGp5pyD!5e0!3m2!1szh-TW!2stw!4v1700000000000!5m2!1szh-TW!2stw" 
+                        width="400" 
+                        height="400"
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+            
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <img src="assets/logo.svg" alt="Church Logo" class="footer-logo-img">
+                    <span class="footer-church-name">基督教傳頌救恩會</span>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>聯絡資訊</h4>
+                    <p><strong>電話:</strong> <a href="tel:+852-27203334">+852-2720-3334</a></p>
+                    <p><strong>電子郵件:</strong> <a href="mailto:contact@cspc.org.tw">contact@cspc.org.tw</a></p>
+                    <p><strong>地址:</strong> 台北市信義區忠孝東路五段123號</p>
+                </div>
+                
+                <div class="footer-schedule">
+                    <h4>服務時間</h4>
+                    <p><a href="#schedule" class="schedule-link">聚會時間</a></p>
+                    <p>主日崇拜: 週日 10:00 AM</p>
+                    <p>禱告會: 週三 7:30 PM</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 基督教傳頌救恩會 (Christian Salvation Proclaiming Church). 版權所有.</p>
+        </div>
     </footer>
     <script src="scripts/app.js"></script>
 </body>

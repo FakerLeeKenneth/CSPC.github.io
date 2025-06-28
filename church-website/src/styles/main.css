@@ -92,11 +92,123 @@ main {
 }
 
 footer {
-    text-align: center;
-    padding: 10px 0;
     background: #35424a;
     color: #ffffff;
+    padding: 40px 20px 10px 20px;
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-map {
+    flex-shrink: 0;
+}
+
+.footer-map h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.map-container {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-logo-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.footer-church-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.footer-contact h4,
+.footer-schedule h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+.footer-contact p,
+.footer-schedule p {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.footer-contact a,
+.footer-schedule a {
+    color: #87ceeb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-contact a:hover,
+.footer-schedule a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.schedule-link {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    .footer-map {
+        align-self: center;
+    }
+    
+    .map-container iframe {
+        width: 100% !important;
+        max-width: 300px;
+    }
 }
