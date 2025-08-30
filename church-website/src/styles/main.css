@@ -255,6 +255,15 @@ footer {
     background: linear-gradient(45deg, #e6833c 0%,#d5583c 25%,#cb1f43 50%,#bb1f66 75%,#ab1488 100%);
 }
 
+.social-link.whatsapp {
+    background-color: #00cc00;
+    color: white;
+}
+
+.social-link.whatsapp:hover {
+    background-color: #00cc00;
+}
+
 .social-link svg {
     width: 20px;
     height: 20px;
