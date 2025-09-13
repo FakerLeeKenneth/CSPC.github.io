@@ -1,4 +1,3 @@
-// church-website/src/scripts/app.js 內容
 document.addEventListener('DOMContentLoaded', () => {
     const carousel = document.getElementById('carousel3d');
     if (carousel) {
