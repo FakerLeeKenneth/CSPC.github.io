@@ -1,6 +1,6 @@
 # Church Website
 
-Web Link: https://fakerleekenneth.github.io/CSPC.github.io/church-website/src/index.html
+Web Link: https://fakerleekenneth.github.io/CSPC.github.io/docs/index.html
 
 This project is a simple church website designed to provide information about the church, its services, and community activities.
 
